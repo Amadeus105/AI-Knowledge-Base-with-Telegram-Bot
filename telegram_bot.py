@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from app import add_document_to_chromadb, extract_text_from_pdf, extract_text_from_txt, list_documents, retrieve_documents_by_keywords
 
 # 🔹 Твой токен бота
-TELEGRAM_BOT_TOKEN = "7686007781:AAFVtkP5CaTFWN-soKmVO1Ihx6KiHq4VSrc"
+TELEGRAM_BOT_TOKEN = "Your token"
 
 # ✅ Функция для отправки сообщений в Telegram
 async def send_telegram_message(chat_id, message):
@@ -120,4 +120,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
